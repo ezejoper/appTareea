@@ -1,38 +1,50 @@
-.App {
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body{
+  color: rgb(255, 255, 255);
+  background-color: rgb(40, 39, 39);
+  font-family: Lato,sans-serif;
+  margin-top: 40px;
+}
+
+h1{
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto,sans-serif;
   text-align: center;
+  margin: 20px 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.aplicacion-tarea{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.logo-contenedor{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+  width: 400px;
+  height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* estilo para la lista de tarea */
+.tarea-lista{
+  width: 600px;
+  min-height: 500px;
+  background-color: grey;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+
 }
+/* border-box define como se va a calcular la caja que rodea al elemento */
