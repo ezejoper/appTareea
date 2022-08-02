@@ -1,1 +1,1 @@
-🎇 AppTarea que he realizado con reac y usando por primera vez bootstrap
+🎇 AppTarea que he realizado con react y usando por primera vez bootstrap 
